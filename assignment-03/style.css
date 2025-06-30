@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#parent {
+  width: 483px;
+  height: 630px;
+  background-color: #fff;
+  border-radius: 4%;
+  margin: 103px;
+  box-shadow: 3px 33px 25px 81px #fce8e8;
+}
+.chlid {
+  width: 480px;
+  height: 127px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+  font-size: x-large;
+  color: #fff;
+  border-top-left-radius: 22px;
+  border-top-right-radius: 22px;
+  text-shadow: 4px 1px 9px #a4acd8;
+  background-image: linear-gradient(to left, #bb50c1, #5a56cc);
+}
+.input {
+  margin: 38px;
+  width: 402px;
+  height: 60px;
+  border-radius: 45px;
+  font-size: x-large;
+  padding:31px;
+  outline:none;
+  border: 3px solid  rgb(182, 181, 181);
+  opacity:0.7;
+}
+input[type="password"]{
+    margin-top:-1%;
+}
+.parent-check{
+    display: flex;
+
+    width:402px;
+    height:30px;
+    margin-left: 39px;
+    margin-top:-4px;
+}
+.checkbox{
+    display:flex ;
+    align-items: left;
+justify-content: left;
+    font-size:20px;
+    font-family: sans-serif;
+    color:#6c6c6c;
+    
+}
+ .check{
+   width:36px;
+  height:23px;
+    margin-left: 2px;
+    margin-top:-2px;
+   border-radius: 20px;
+     text-align: center;
+}
+ .link{
+  
+  padding-left: 45px;
+   display:flex ;
+    align-items: center;
+justify-content: left;
+    font-size:20px;
+    text-shadow: 10px 10px 10px #b1baeb;
+}
+.link a{
+     text-align: center;
+    text-decoration: none;
+    font-family: sans-serif;
+    color:#7b8ade;
+} 
+.button{
+     width: 398px;
+  height: 58px;
+   background-image: linear-gradient(to left, #bb50c1, #5a56cc);
+    border-radius: 45px;
+     font-size:  x-large;
+     font-family: sans-serif;
+    font-weight: bold;
+cursor: pointer;
+     color:#fff;
+  text-align: center;
+  margin-left:39px;
+  margin-top:38px;
+  border:none;
+}
+.bottom{
+      width: 398px;
+  height: 42px;
+    display: flex;
+     align-items:center ;
+     justify-content: center;
+   
+    font-family: sans-serif;
+     font-size:  large;
+     font-family: sans-serif;
+     margin-left:39px;
+     margin-top:46px;
+
+}
+.child-bottom{
+    color:#535353;
+}
+.child-bottom{
+     margin-right:4px;
+}
+.child-bottomtwo a{
+ text-decoration: none;
+    color:#7e8ddf;
+}
